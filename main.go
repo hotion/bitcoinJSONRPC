@@ -7,8 +7,8 @@ import (
 const (
 	SERVER_HOST        = "localhost"
 	SERVER_PORT        = 8332
-	USER               = "rpczh01"
-	PASSWD             = "123rpczh01456"
+	USER               = "xxmm"
+	PASSWD             = "123456"
 	USESSL             = false
 	WALLET_PASSPHRASE  = "WalletPassphrase"
 )
