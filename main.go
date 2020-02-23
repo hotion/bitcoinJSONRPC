@@ -23,7 +23,7 @@ func test02(){
 	if err != nil {
 		log.Fatalln(err)
 	}
-	//生成一个新地址
+	
 	reqJson := "{\"method\":\"getnewaddress\",\"params\":[\"labelName002\"],\"id\":1}";
 	returnJson, err2 := rpcClient.send(reqJson)
 	if err2 != nil {
