@@ -17,7 +17,7 @@ func main() {
 	test02()
 
 }
-
+//
 func test02(){
 	rpcClient, err := newClient(SERVER_HOST, SERVER_PORT, USER, PASSWD, USESSL)
 	if err != nil {
